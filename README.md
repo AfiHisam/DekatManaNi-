@@ -17,7 +17,10 @@ compile 'com.android.volley:volley:1.0.0'
 <hr>
 ## prerequisite
 At MainActivity.java line 97 
+
+<pre>
 String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+location.getLatitude()+","+location.getLongitude()+"&sensor=true&key=<b>YOUR_API_KEY</b>";
+</pre>
 
 please replace with your api key
 
