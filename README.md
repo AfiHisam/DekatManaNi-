@@ -1,7 +1,7 @@
 # DekatManaNi-
 DekatManaNi? is an android apps with very basic structure that  help you know your current position/address via phone gps.
 
-##Lets started
+## Lets started
 Add this 2 line of code in AndroidManifest.xml
 
  <pre>
