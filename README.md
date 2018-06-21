@@ -15,7 +15,9 @@ compile 'com.android.volley:volley:1.0.0'
 </pre>
 <i> Note : Volley library is use to call and handle json from google api </i>
 <hr>
+
 ## Prerequisite
+
 at MainActivity.java line 97 
 
 <pre>
