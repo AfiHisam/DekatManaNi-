@@ -3,5 +3,5 @@ DekatManaNi? is an android apps with very basic structure that  help you know yo
 
 Add this 2 line of code in AndroidManifest.xml
 
- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
- <uses-permission android:name="android.permission.INTERNET" />
+ **<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />**
+ **<uses-permission android:name="android.permission.INTERNET" />**
