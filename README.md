@@ -7,3 +7,8 @@ Add this 2 line of code in AndroidManifest.xml
  < uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
  < uses-permission android:name="android.permission.INTERNET" />
  </pre>
+
+and add volley dependencies in your build.gradle(Module:app)
+<pre>
+compile 'com.android.volley:volley:1.0.0'
+</pre>
