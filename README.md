@@ -13,6 +13,7 @@ and add volley library in your build.gradle (Module: app)
 compile 'com.android.volley:volley:1.0.0'
 </pre>
 Volley library is use to call and handle json from google api
+<hr>
 
 it's up to you how to design a layout, but I'm using a simple one
 
