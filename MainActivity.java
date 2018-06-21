@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                        String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+location.getLatitude()+","+location.getLongitude()+"&sensor=true";
+                        String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+location.getLatitude()+","+location.getLongitude()+"&sensor=true&key=YOUR_API_KEY";
 
                         pDialog.setMessage("Loading...");
                         pDialog.show();
