@@ -18,8 +18,8 @@ it's up to you how to design a layout, but I'm using a simple one
 
 <pre>
 
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+< ?xml version="1.0" encoding="utf-8"?>
+< RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -32,13 +32,13 @@ it's up to you how to design a layout, but I'm using a simple one
     tools:context="com.example.afihisam.dekatmanani.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <RelativeLayout
+    < RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true">
 
-        <Button
+        < Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dekat mana ni"
@@ -46,7 +46,7 @@ it's up to you how to design a layout, but I'm using a simple one
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
 
-        <TextView
+        < TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -56,7 +56,7 @@ it's up to you how to design a layout, but I'm using a simple one
             android:layout_centerHorizontal="true"
             android:paddingTop="30dp" />
 
-        <TextView
+        < TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
@@ -65,7 +65,7 @@ it's up to you how to design a layout, but I'm using a simple one
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
-        <TextView
+        < TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -74,7 +74,7 @@ it's up to you how to design a layout, but I'm using a simple one
             android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true" />
 
-        <TextView
+        < TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -83,7 +83,7 @@ it's up to you how to design a layout, but I'm using a simple one
             android:layout_below="@+id/latitute"
             android:layout_centerHorizontal="true" />
 
-        <TextView
+        < TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -92,7 +92,7 @@ it's up to you how to design a layout, but I'm using a simple one
             android:layout_below="@+id/add"
             android:layout_centerHorizontal="true" />
 
-    </RelativeLayout>
-</RelativeLayout>
+    </ RelativeLayout>
+</ RelativeLayout>
 
 </pre>
