@@ -15,7 +15,7 @@ compile 'com.android.volley:volley:1.0.0'
 </pre>
 <i> Note : Volley library is use to call and handle json from google api </i>
 <hr>
-## prerequisite,
+## Prerequisite
 at MainActivity.java line 97 
 
 <pre>
@@ -28,6 +28,7 @@ https://developers.google.com/maps/documentation/javascript/get-api-key
 
 and enable Geolocating also
 
+<hr>
 it's up to you how to design a layout, but I'm using a simple one
 
 <pre>
