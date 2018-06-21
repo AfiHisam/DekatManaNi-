@@ -98,6 +98,6 @@ it's up to you how to design a layout, but I'm using a simple one
 </ RelativeLayout>
 
 </pre>
-## Screenshot example
+## Screenshot
 
 <img src="https://github.com/AfiHisam/DekatManaNi-/blob/master/location.jpg" width="40%">
