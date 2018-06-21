@@ -112,12 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                                 try {
-                                   /* subuh.setText(response.getJSONArray("items").getJSONObject(0).get("fajr").toString());
-                                    zohor.setText(response.getJSONArray("items").getJSONObject(0).get("dhuhr").toString());
-                                    asar.setText(response.getJSONArray("items").getJSONObject(0).get("asr").toString());
-                                    maghrib.setText(response.getJSONArray("items").getJSONObject(0).get("maghrib").toString());
-                                    isyak.setText(response.getJSONArray("items").getJSONObject(0).get("isha").toString());*/
-                               //     Toast.makeText(MainActivity.this,response.getJSONArray("results").getJSONObject(1).get("formatted_address").toString(),Toast.LENGTH_LONG).show();
+                                 
                                     Toast.makeText(MainActivity.this,"Status : "+response.get("status").toString(),Toast.LENGTH_LONG).show();
                                     addr.setText(response.getJSONArray("results").getJSONObject(1).get("formatted_address").toString());
 
