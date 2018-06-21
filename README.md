@@ -15,14 +15,18 @@ compile 'com.android.volley:volley:1.0.0'
 </pre>
 <i> Note : Volley library is use to call and handle json from google api </i>
 <hr>
-## prerequisite
-At MainActivity.java line 97 
+## prerequisite,
+at MainActivity.java line 97 
 
 <pre>
 String url = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+location.getLatitude()+","+location.getLongitude()+"&sensor=true&key=<b>YOUR_API_KEY</b>";
 </pre>
 
-please replace with your api key
+please replace with your api key and enable it 
+
+https://developers.google.com/maps/documentation/javascript/get-api-key
+
+and enable Geolocating also
 
 it's up to you how to design a layout, but I'm using a simple one
 
